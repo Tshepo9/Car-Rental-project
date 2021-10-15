@@ -1,0 +1,221 @@
+
+
+body{
+	background-color:white;
+}
+.webname{
+	position:absolute;
+	color:white;
+	margin-left:150px;
+	top:24px;
+}
+
+.topbar{
+	background-color:black;
+	border-style:outset;
+	border-color:green;
+
+}
+.main{
+	background-image: url('lambo.jpg');
+	background-size: cover;
+	background-clip: content-box;
+	color:white;
+	 
+}
+.navlist{
+	color:green;
+	position:absolute;
+	top:50px;
+	left:500px;
+}
+ul {
+	
+    list-style-type: none;
+	
+}
+li{
+    
+	float:left;
+	padding-left:100px;
+}
+.homeicon{
+	position:absolute;
+    left:580px;
+	top:45px;
+}
+.galleryicon{
+	position:absolute;
+    left:730px;
+	top:45px;
+}
+.aboutusicon{
+	position:absolute;
+    left:900px;
+	top:40px;
+}
+.contacticon{
+	position:absolute;
+    left:1080px;
+    top:45px;
+}
+.entryfrm{
+	height:600px;
+	
+	
+}
+.container {
+  margin-left:500px;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  
+  
+  position: relative;
+}
+.photo {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+-webkit-@keyframes round {
+  25% {
+    opacity: 1;
+    -webkit-opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    -webkit-opacity: 0;
+  }
+}
+
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+ 
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+ 
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+ 
+img:nth-child(4) {
+  animation-delay: 0s;
+}
+.A45{
+	position:absolute;
+	left:450px;
+	top:1152px;
+}
+.c180{
+	position:absolute;
+	left:900px;
+	top:1152px;
+}
+
+.golf{
+	position:absolute;
+	left:450px;
+	top:1482px;
+}
+.mazda3{
+	position:absolute;
+	left:900px;
+	top:1482px;
+}
+.polo{
+	position:absolute;
+	left:450px;
+	top:1810px;
+}
+
+.tiguan{
+	position:absolute;
+	left:900px;
+	top:1810px;
+}
+
+.kona{
+	position:absolute;
+	left:450px;
+	top:2135px;
+}
+
+.cerato{
+	position:absolute;
+	left:900px;
+	top:2135px;
+}
+
+.facebook{
+	position:absolute;
+	left:650px;
+	top:2870px;
+}
+
+.twitter{
+	position:absolute;
+	left:950px;
+	top:2870px;
+}
+.instagram{
+	position:absolute;
+	left:800px;
+	top:2870px;
+}
+.youtube{
+	position:absolute;
+	left:1100px;
+	top:2870px;
+}
+a{
+	text-decoration:none;
+	color:green;
+}
+
+
+a:hover   {
+	color:blue;
+	}
+a:active  {
+	color:red;
+	}
+#car:hover   {
+	 border-style:solid;
+	 border-color:green;
+	 border-width:10px;
+}
+
+
+.facebook2{
+	position:absolute;
+	left:650px;
+	top:800px;
+}
+
+.twitter2{
+	position:absolute;
+	left:950px;
+	top:800px;
+}
+.instagram2{
+	position:absolute;
+	left:800px;
+	top:800px;
+}
+.youtube2{
+	position:absolute;
+	left:1100px;
+	top:800px;
+}
+
